@@ -1,0 +1,109 @@
+{
+  "action": "calculate",
+  "object": "transport_solutions",
+  "params": {
+    "data": {
+      "items": [
+        {
+          "gng_id": "00000000",
+          "weight": 20.0,
+          "declared": null,
+          "etsng_id": "753131"
+        },
+        {
+          "gng_id": "00000000",
+          "weight": 20.0,
+          "declared": null,
+          "etsng_id": "753131"
+        }
+      ],
+      "period": {
+        "priority": "date_start",
+        "date_start": {
+          "min": "2021-09-06T00:00:00+00:00"
+        }
+      },
+      "wagons": null,
+      "location": {
+        "to": {
+          "catalog_id": [
+            "T_RU_VER_RZD"
+          ],
+          "country_id": "643"
+        },
+        "from": {
+          "catalog_id": [
+            "T_RU_ZAY_RZD"
+          ],
+          "country_id": "643"
+        }
+      },
+      "additional": {
+        "currency": "RUB",
+        "client_type": "standart",
+        "wagon_owner": "TK",
+        "linked_cargo": null,
+        "user_type_id": [
+          1,
+          3
+        ],
+        "wagons_group": false,
+        "wagons_linked": false,
+        "oversize_index": null,
+        "sort_routes_by": "price",
+        "complex_service": true,
+        "conductor_count": null,
+        "container_owner": "TK",
+        "empty_equipment": false,
+        "wagons_in_route": false,
+        "sales_channel_id": 1,
+        "shipment_type_id": 3000,
+        "household_exceeds": null,
+        "shipment_detail_id": 15,
+        "military_form2_rail": false,
+        "military_form2_water": false,
+        "wagons_count_in_group": [1, 2],
+        "complete_shipment_wagon": true,
+        "military_form2_terminal": false,
+        "equipment_types_together": false,
+        "included_in_container_train": false
+      },
+      "containers": [
+        {
+          "type": "DRV_20FT_24T",
+          "count": 1,
+          "weight_brutto": 22.2
+        }
+      ],
+      "itinerary_id": null,
+      "special_rates": null,
+      "items_total_weight": 20,
+      "items_declared_value": null
+    },
+    "client": {
+      "id": "0001464361"
+    },
+    "manager": {
+      "id": "ShchekotovaLV@trcont.ru",
+      "name": "Щекотова Любовь Владимировна"
+    },
+    "contract": {
+      "id": "000000030629",
+      "type": "standart",
+      "branch": {
+        "id": "2.0.00148",
+        "name": "Уральский филиал ПАО \"ТрансКонтейнер\""
+      },
+      "number": "№НКП СВЖД-766796",
+      "language": "RU",
+      "date_expiration": "2021-12-31T00:00:00+00:00"
+    }
+  },
+  "priority": 1,
+  "system_to": "isales",
+  "message_id": "6fecfc77-c862-4578-ad1c-c5629b786e86",
+  "api_version": "1.0",
+  "system_from": "calculator",
+  "reference_id": "6fecfc77-c862-4578-ad1c-c5629b786e86",
+  "datetime_created": "2021-09-06T11:55:06"
+}
